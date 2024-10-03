@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     background-color: turquoise;
@@ -8,23 +8,40 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+ 
+    }
+
+
+    
+
+    h1{
+        font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    color: #ff6f61;
     }
     
-    header {
-        background-color: #4a90e2; /* Soft blue */
+    h2, h3 {
+        font-family: 'Playfair Display', serif; /* Elegant and bold for headings */
+      }
+      
+      header {
+        background: linear-gradient(135deg, #4a90e2, #a1c4fd); /* Blue gradient */
         color: white;
-        padding: 50px 20px;
+        padding: 60px 20px;
         text-align: center;
-        box-sizing: border-box;
     }
+    
+    
     
     section {
         padding: 40px 20px;
+        
     }
     
     h2 {
-        color: #4a90e2;
-        border-bottom: 2px solid #4a90e2;
+        color:  #4a90e2;
+        border-bottom: 2px solid  #4a90e2;
         display: inline-block;
         margin-bottom: 20px;
     }
@@ -42,12 +59,6 @@ body{
     
     #song{
         padding: 40px 20px;
-    
-    background-color: turquoise;
-    background-image: url("blueish.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     }
     
     #song h2{
@@ -85,6 +96,91 @@ body{
         #song iframe {
             height: 300px;
         }
+           h1 {
+        font-size: 2rem;
+    }
+    section {
+        padding: 10px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
     }
     
+    .flex-text {
+        background-color: #add8e6;
+        border: 1px solid lightblue;
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px; /* Space above the first card */
+        margin-bottom: 30px; /* Space between cards */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .flex-text:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+    }
+    
+      nav ul {
+        display: flex;
+        justify-content: center;
+        background-color: #4a90e2;
+        padding: 10px 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        margin: 0 15px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    nav ul li a:hover {
+        color: #ffcc29;
+    }
+    section {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    
+    section.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    button {
+        background-color: #4a90e2;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    
+    button:hover {
+        background-color: #357ABD; /* Darker blue on hover */
+        transform: scale(1.05); /* Slight enlargement on hover */
+    }
+
+    .flex-textSpotify{
+        background-color: rgb(208, 64, 88);
+        border: 1px solid rgb(208, 64, 88);
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px; /* Space above the first card */
+        margin-bottom: 30px; /* Space between cards */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+        
+
+      
  
