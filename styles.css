@@ -4,6 +4,10 @@ body{
     padding: 0;
     background-color: turquoise;
     color: #333;
+    background-image: url("blueish.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     }
     
     header {
@@ -40,6 +44,10 @@ body{
         padding: 40px 20px;
     
     background-color: turquoise;
+    background-image: url("blueish.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     }
     
     #song h2{
