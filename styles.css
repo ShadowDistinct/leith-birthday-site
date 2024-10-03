@@ -1,0 +1,82 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: turquoise;
+    color: #333;
+    }
+    
+    header {
+        background-color: #4a90e2; /* Soft blue */
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    
+    section {
+        padding: 40px 20px;
+    }
+    
+    h2 {
+        color: #4a90e2;
+        border-bottom: 2px solid #4a90e2;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    
+    #our-story .the-story, #favorite-moments .our-moments, #our-future .the-future {
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+    
+    #our-story ul{
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+    
+    #song{
+        padding: 40px 20px;
+    
+    background-color: turquoise;
+    }
+    
+    #song h2{
+        color: #4a90e2;
+        margin-bottom: 20px;
+        
+    }
+    
+    #song iframe{
+        display: block;
+        margin: 0 auto; /* Centers the iframe horizontally */
+        border-radius: 12px;
+        
+    }
+    
+    footer {
+        background-color: #4a90e2;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    @media (max-width: 600px) {
+        header {
+            padding: 30px 10px;
+        }
+    
+        section {
+            padding: 20px 10px;
+        }
+    
+        #song iframe {
+            height: 300px;
+        }
+    }
+    
+ 
